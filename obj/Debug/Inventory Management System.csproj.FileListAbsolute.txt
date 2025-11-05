@@ -13,3 +13,18 @@ C:\Users\gpmat\Desktop\Inventory-Management-System-master\Inventory-Management-S
 C:\Users\gpmat\Desktop\Inventory-Management-System-master\Inventory-Management-System-master\obj\Debug\Inventory Management System.exe
 C:\Users\gpmat\Desktop\Inventory-Management-System-master\Inventory-Management-System-master\obj\Debug\Inventory Management System.pdb
 C:\Users\gpmat\Desktop\Inventory-Management-System-master\Inventory-Management-System-master\obj\Debug\Inventory Management System.exe.config
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\bin\Debug\Inventory Management System.exe.config
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\bin\Debug\Inventory Management System.exe
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\bin\Debug\Inventory Management System.pdb
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory Management System.csproj.AssemblyReference.cache
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory Management System.exe.config
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory_Management_System.addPart.resources
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory_Management_System.addProduct.resources
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory_Management_System.mainForm.resources
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory_Management_System.modPart.resources
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory_Management_System.modProduct.resources
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory_Management_System.Properties.Resources.resources
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory Management System.csproj.GenerateResource.cache
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory Management System.csproj.CoreCompileInputs.cache
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory Management System.exe
+C:\Users\gpmat\Desktop\Inventory-Management-System-master\InventoryManagementSystemC968\obj\Debug\Inventory Management System.pdb
