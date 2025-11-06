@@ -52,10 +52,28 @@ namespace Inventory_Management_System
             DialogResult result = MessageBox.Show("Do you want to delete? This cannot be undone.", "Confirmation", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
+                bool isAssociated = false;
+                Part partToDelete = (Part)mainFormPartGrid.CurrentRow.DataBoundItem;
+
+                foreach (Product product in Inventory.Products)
+                {
+                    if (product.AssociatedParts.Any(p => p.PartID == partToDelete.PartID))
+                    {
+                        isAssociated = true;
+                        break;
+                    }
+                }
+                if (isAssociated)
+                {
+                    MessageBox.Show("Error: cannot delete part, it is associated with one or more products.", "Deletion Failed", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    return;
+                }
                 foreach (DataGridViewRow row in mainFormPartGrid.SelectedRows)
                 {
-                    mainFormPartGrid.Rows.RemoveAt(row.Index);
+                        mainFormPartGrid.Rows.RemoveAt(row.Index);
                 }
+             
+                
             }
             else return;
         }

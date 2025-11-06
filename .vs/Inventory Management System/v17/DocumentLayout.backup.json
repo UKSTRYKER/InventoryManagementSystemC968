@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gpmat\\Desktop\\Inventory-Management-System-master\\InventoryManagementSystemC968\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0A34785-8AC3-45C2-871D-55697B03B42C}|Inventory Management System.csproj|c:\\users\\gpmat\\desktop\\inventory-management-system-master\\inventorymanagementsystemc968\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0A34785-8AC3-45C2-871D-55697B03B42C}|Inventory Management System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0A34785-8AC3-45C2-871D-55697B03B42C}|Inventory Management System.csproj|c:\\users\\gpmat\\desktop\\inventory-management-system-master\\inventorymanagementsystemc968\\classes\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A34785-8AC3-45C2-871D-55697B03B42C}|Inventory Management System.csproj|solutionrelative:classes\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A34785-8AC3-45C2-871D-55697B03B42C}|Inventory Management System.csproj|c:\\users\\gpmat\\desktop\\inventory-management-system-master\\inventorymanagementsystemc968\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A34785-8AC3-45C2-871D-55697B03B42C}|Inventory Management System.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gpmat\\Desktop\\Inventory-Management-System-master\\InventoryManagementSystemC968\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\gpmat\\Desktop\\Inventory-Management-System-master\\InventoryManagementSystemC968\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\gpmat\\Desktop\\Inventory-Management-System-master\\InventoryManagementSystemC968\\Classes\\Inventory.cs",
+              "RelativeDocumentMoniker": "Classes\\Inventory.cs",
+              "ToolTip": "C:\\Users\\gpmat\\Desktop\\Inventory-Management-System-master\\InventoryManagementSystemC968\\Classes\\Inventory.cs",
+              "RelativeToolTip": "Classes\\Inventory.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAA8wHgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T23:57:50.87Z",
+              "WhenOpened": "2025-11-06T00:45:48.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\gpmat\\Desktop\\Inventory-Management-System-master\\InventoryManagementSystemC968\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\gpmat\\Desktop\\Inventory-Management-System-master\\InventoryManagementSystemC968\\Forms\\MainForm.cs",
+              "RelativeToolTip": "Forms\\MainForm.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T00:16:48.131Z",
               "EditorCaption": ""
             }
           ]

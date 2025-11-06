@@ -19,20 +19,28 @@ namespace Inventory_Management_System
         public static bool RemoveProduct(int prodID)
         {
             bool success = false;
+            Product prodToRemove = null;
+
             foreach (Product prod in Products)
             {
                 if (prodID == prod.ProductID)
                 {
-                    Products.Remove(prod);
-                    return success = true;
-                }
-                else
-                {
-                    MessageBox.Show("ERROR: Removal failed.");
-                    return success = false;
+                    prodToRemove = prod;
+                    success = true;
+                    break; 
                 }
             }
-            return success;
+
+            if (success)
+            {
+                Products.Remove(prodToRemove);
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("ERROR: Removal failed.");
+                return false;
+            }
         }
 
         public static Product LookupProduct(int prodID)
@@ -50,12 +58,22 @@ namespace Inventory_Management_System
 
         public static void UpdateProduct(int prodID, Product product)
         {
-            // Note: The method name 'DeleteProduct' does not match 'RemoveProduct' defined above.
-            RemoveProduct(prodID);
-            Products.Add(product);
+            int index = -1;
+            for (int i = 0; i < Products.Count; i++)
+            {
+                if (Products[i].ProductID == prodID)
+                {
+                    index = i;
+                    break;
+                }
+            }
+
+            if (index != -1)
+            {
+                Products[index] = product;
+            }
         }
 
-        // Methods for parts
         public static void AddPart(Part part)
         {
             Parts.Add(part);
@@ -90,8 +108,20 @@ namespace Inventory_Management_System
 
         public static void UpdatePart(int partID, Part part)
         {
-            DeletePart(partID);
-            AddPart(part);
+            int index = -1;
+            for (int i = 0; i < Parts.Count; i++)
+            {
+                if (Parts[i].PartID == partID)
+                {
+                    index = i;
+                    break;
+                }
+            }
+
+            if (index != -1)
+            {
+                Parts[index] = part;
+            }
         }
 
         public static void ExampleItems()
